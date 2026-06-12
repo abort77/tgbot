@@ -24,8 +24,7 @@ def format_lead(lead):
         f"<b>Длительность стресса:</b> {_label(lead.skolko_dlitsa_stress)}\n"
         f"<b>Медитация:</b> {_label(lead.hochet_meditasiy)}\n"
         f"<b>Долг:</b> {_label(lead.dolg)}\n"
-        f"<b>Готовность:</b> {_label(lead.gor_hol)}\n\n"
-        f"<i>{lead.created_at:%Y-%m-%d %H:%M UTC}</i>"
+        f"<b>Готовность:</b> {_label(lead.gor_hol)}"
     )
 
 async def notify_admin(bot, admin_chat_id, lead):
