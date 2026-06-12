@@ -1,5 +1,6 @@
-Q_DURATION = (
-    "<b>{username}</b>, мы прекрасно понимаем, как финансовый стресс влияет "
+MEDITATION_AUDIO_MORNING = "CQACAgIAAxkBAAN4aiuW0FCywAp_TmXftN7zjzOAioIAAv-VAALaVGBJT_XWa6uC2QM8BA"
+MEDITATION_AUDIO_EVENING = "CQACAgIAAxkBAAN6aiuXi40TQNZUnDYKQUPB8VhhQRoAAgWWAALaVGBJqs7ze4w4tkQ8BA"
+Q_DURATION = ( "<b>{username}</b>, мы прекрасно понимаем, как финансовый стресс влияет "
     "на всю жизнь — на сон, настроение и здоровье.\n\n"
     "Поэтому вместе с юридической помощью мы подготовили для вас подарки "
     "от психолога и телесного терапевта — чтобы вы могли справиться со стрессом, "
@@ -40,7 +41,6 @@ DEBT_OPTIONS = [
 Q_READINESS = (
     "<b>Здравствуйте, я Мария — телесный терапевт</b>, "
     "специализируюсь на снятии стресса через тело.\n\n"
-    "Подготовила для вас практику самопомощи при сильном стрессе.\n\n"
     "<b>По шкале 1–10, насколько вы готовы начать работу над собой?</b>"
 )
 READINESS_OPTIONS = [
